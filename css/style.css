@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1166px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+nav{
+    margin-top: 50px;
+    position: absolute;
+    width: 100%;
+}
+.nav_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 100px;
+    font-size: 16px;
+    font-weight:300;
+    color: #202339;
+    transition:.4s;
+    position: relative;
+}
+nav ul li::before{
+    content:"";
+    width: 0;
+    height: 3px;
+    background: #F6762E;
+    position: absolute;
+    top: 28px;
+    left:50%;
+    border-radius: 5px;
+    transition: .4s;
+    transform: translateX(-50%);
+}
+nav ul li:hover::before{
+    width:60px;
+}
+nav ul li:hover{
+    font-weight:600;
+}
+
+#banner{
+    background: #EEEDDE;
+}
+#banner .banner_wrapper{
+    display: flex;
+
+}
+#banner .banner_left{
+    width: 65%;
+   
+}
+#banner .banner_right{
+    width: 35%;
+    padding-top: 188px;
+    padding-bottom: 120px;
+    margin-left: 60px;
+}
+.banner_left h1{
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #203239;
+    width: 777px;
+    padding-top: 257px;
+}
+.banner_left p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    color: rgba(33, 50, 56,0.55);
+    width: 544px;
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+.banner_left input::placeholder {
+    font-size:16px ;
+    font-weight:300 ;
+    color: rgba(31, 50, 56,0.55);
+    }
+.banner_left input{
+    width: 508px;
+    height: 70px;
+    border-radius: 15px;
+    background: #FFFFFF;
+    border: none;
+    padding-left: 56px;
+}
+.banner_left a{
+    font-size: 16px;
+    font-weight: 300px;
+    color: rgba(33, 50, 56,0.55);
+    text-decoration: none;
+    padding: 23px 56px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+.banner_location{
+    position: absolute;
+    left: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+}
+.banner_inputbox{
+    display: flex;
+    position: relative;
+    gap: 20px;
+   
+    
+
+}
+
+#properti{
+    margin-top: 100px;
+    
+}
+#properti h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #203239;
+    width: 533px;
+}
+#properti .item h4{
+    font-size: 16px;
+    font-weight: 400;
+    color: #203239;
+    position: relative;
+}
+#properti .item h4::after{
+    content:"";
+    width: 8px;
+    height:30px;
+    background:#ff7527;
+    position: absolute;
+    left: -33px;
+    top: 50%;
+    transform:translateY(-50%);
+    border-radius: 10px;
+}
+
+#properti .item p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    color: rgba(33, 50, 56,0.55);
+    width: 235px;
+    margin-top: 8px;
+}
+#properti .item a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #203239;
+    margin-top: 50px;
+    text-decoration:none;
+    display: inline-block;
+}
+#properti .item .itemarrow{
+    margin-left: 8px;
+}
+.item_wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top:20px;
+}
+#properti .item:hover{
+    border: 1px solid red;
+}
+#properti .item{
+    border: 1px solid #EEEDDE;
+    display: inline-block;
+    padding: 20px 33px;
+    border-radius: 10px;
+}
+.item_top{
+    display: flex;
+    justify-content: space-between;
+}
+#properti .item h5{
+    font-size: 16px;
+    font-weight: 500px;
+    color: #ff7527;
+    margin-right: -7px;
+}
+#residan{
+    margin-top: 100px;
+    background: #EEEDDE;
+    height: 100vh;
+   
+}
+.residan_title h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #ff7527;
+}
+.residan_title h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #ff7527;
+    line-height: 150%;
+    margin-top: 8px;
+
+}
+.residan_wrapper{
+    display:flex ;
+}
+.residan_left{
+    width: 50%;
+    position:relative;
+    margin-top: 24px;
+    
+}
+.residan_two{
+    position: absolute;
+    left:170px;
+    top: 50px;
+}
+.residan_right{
+    width: 50%;
+}
+.residan_right h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #202339;
+    width: 507px;
+    margin-top: 50px;
+}
+.residan_right p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #202339;
+    width: 570px;
+    margin-bottom:20px;
+    margin-top: 30px;
+
+}
+.residan_right a{
+    font-size: 16px;
+    font-weight: 300px;
+    color:#202339;
+    padding: 0px 20px;
+    background: #EEEDDE;
+   
+    border-radius: 10px;
+    text-decoration: none;
+    border:1px solid  ;
+}
+.residan_right a:hover{
+    background: #202339;
+    color: #EEEDDE;
+}
+.residan_btn{
+    display: flex;
+    gap: 30px;
+   
+}
+.residan_btn .icon{
+    margin-right: 20px;
+}
+#lastpart{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.lastpart_wrapper h5{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FF7527;
+    margin-top: 16px;
+}
+.lastpart_wrapper h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #202339;
+    line-height: 150%;
+    margin-bottom: 50px;
+}
+.last_item h4{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #203239;
+}
+.last_item_top{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.last_item p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #203239;
+    width: 356px;
+}
+#endpart{
+    background:#EEEDDE;
+    height: 496px;
+}
+#endpart h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #202339;
+}
+.callpart{
+    display: flex;
+   
+    width:274px ;
+    height:167px ;
+    background: #FFFFFF;
+    margin-top: 74px;
+    
+}
+.callpart h6{
+    font-size: 16px;
+    font-weight: 500;
+    color: #202339;
+    padding-top: 25px;
+}
+.callpart h5{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #202339;
+    padding-bottom: 27px;
+    
+}
+.callpart a{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 109px;
+    height: 44px;
+    border-radius:5px;
+    background: #202339;
+    padding: 20px 20px;
+    
+}
+#endpart .callpart .phone{
+padding-top: 40px;
+padding-left: 40px;
+width: 34px;
+height: 33px;
+}
+#endpart .telephone_left{
+    display: flex;
+    gap: 24px;
+}
+#endpart .telephone{
+    display: flex;
+    justify-content: space-between;
+}
+#endpart .telephone_right  h3{
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 54px;
+    color: #202339;
+    margin-bottom: 69px;
+}
+
+#fooder{
+background:#203239;
+height: 104px;
+}
+#fooder .fooder_top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fooder_right{
+    display: flex;
+    gap: 64px;
+    font-size: 30px;
+    color: white;
+}
+
+
+
+
+
+
+
